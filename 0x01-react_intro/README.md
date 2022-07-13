@@ -1,13 +1,11 @@
 # 0x01. React intro
 ```Front-end``` ```JavaScript``` ```ES6``` ```React```
 
-```
-Concepts
+# Concepts
 For this project, we expect you to look at this concept:
 
 - React
 
-```
 
 # Resources
 **Read or watch:**
