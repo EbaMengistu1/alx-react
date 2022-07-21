@@ -39,3 +39,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Allowed editors: vi, vim, emacs, Visual Studio Code
 - All your files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
+
