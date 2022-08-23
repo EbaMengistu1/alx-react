@@ -1,3 +1,4 @@
+
 import { shallow, mount } from "enzyme";
 import React from "react";
 import App, { listNotificationsInitialState, mapStateToProps } from "./App";
@@ -20,5 +21,14 @@ describe("<App />", () => {
     const result = mapStateToProps(state);
 
     expect(result).toEqual({ isLoggedIn: true });
+  });
+  it("mapStateToProps returns the right object from display Drawer", () => {
+    let state = fromJS({
+      isNotificationDrawerVisible: true,
+    });
+
+    const result = mapStateToProps(state);
+
+    expect(result).toEqual({ displayDrawer: true });
   });
 });
